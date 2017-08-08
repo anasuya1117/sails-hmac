@@ -34,7 +34,8 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  'POST /client/create/:clientName': 'ClientController.createClient'
 
   /***************************************************************************
   *                                                                          *

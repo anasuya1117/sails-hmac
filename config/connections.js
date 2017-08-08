@@ -82,6 +82,17 @@ module.exports.connections = {
   //   database: 'YOUR_POSTGRES_DB' //optional
   // }
 
+  myPostgresqlServer: {
+    adapter: 'sails-postgresql',
+    database: 'sails-hmac',
+    host: 'localhost',
+    user: 'anasuya',
+    password: 'anasuya',
+    port: 5432,
+    poolSize: 10,
+    ssl: false
+  }
+
 
   /***************************************************************************
   *                                                                          *
